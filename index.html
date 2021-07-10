@@ -1,471 +1,308 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elins Städfirma</title>
 
-    <script src="https://kit.fontawesome.com/59b2be8ba7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
-        integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
-        crossorigin="anonymous" type="text/css">
+    <!-- aos css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-    <!-- Material Design for Bootstrap fonts and icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 
-    <!-- Material Design for Bootstrap CSS -->
-    <link rel="stylesheet"
-        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
-        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Elsas Städ</title>
+    <!--CSS file-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Elins Städ</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#hem">Elsas Städ</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Hem</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Tjänster
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Hemstädning</a>
-                        <a class="dropdown-item" href="#">Flyttstädning</a>
-                        <a class="dropdown-item" href="#">Storstädning</a>
-                        <a class="dropdown-item" href="#">Byggstädning</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Kontorsstädning</a>
-                        <a class="dropdown-item" href="#">Trappstädning</a>
-                        <a class="dropdown-item" href="#">Fönsterputs</a>
-                        <a class="dropdown-item" href="#">Visningsstädning</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Priser</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Om oss</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Kontakt</a>
-                </li>
+    <!-- header section starts  -->
+
+    <header>
+
+        <!--<a href="#" class="logo"><img src="bilder/ElinsStad_logo.jpg" alt="logo"></a>-->
+
+        <div id="menu-bar" class="fas fa-hand-sparkles"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#hem">Hem</a></li>
+                <li><a href="#Om oss">Om oss</a></li>
+                <li><a href="#tjänster">Tjänster</a></li>
+                <li><a href="#priser">Priser</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
             </ul>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="hem">
+
+        <div class="content" data-aos="fade-right">
+            <a href="#" class="logo"><img src="bilder/ElinsStad_logo.jpg" class="logo2" alt="logo"></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit distinctio error corporis adipisci molestias eveniet optio quaerat tempore asperiores!</p>
+            <a href="#Om oss"><button class="btn">Läs mer</button></a>
         </div>
-    </nav>
-    <!--Carousel section-->
-    <div class="banner1">
-        <img src="images/clean1-matilda-wormwood.jpg" class="imagenes">
-        <div class="text-box text-box1">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <span></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, libero.</p>
+
+        <div class="image" data-aos="fade-up">
+            <!--<img src="bilder/tima-miroshnichenko.jpg" alt="personal">-->
         </div>
-    </div>
-    <div class="banner2">
-        <img src="images/clean2-mark-mccammon.jpg" class="imagenes">
-        <div class="text-box text-box2">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <span></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, libero.</p>
-        </div>
-    </div>
-    <div class="banner3">
-        <img src="images/clean3-matilda-wormwood.jpg" class="imagenes">
-        <div class="text-box text-box3">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <span></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, libero.</p>
-        </div>
-    </div>
-    <div class="banner4">
-        <img src="images/clean4-matilda-wormwood.jpg" class="imagenes">
-        <div class="text-box text-box4">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <span></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, libero.</p>
-        </div>
-    </div>
-    <!--About us Section-->
-    <section>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-2-9 mb-lg-0">
-                    <div class="position-relative">
-                        <div class="position-relative z-index-1 py-2-9 py-xl-7 px-1-6 px-md-2-9 px-lg-1-6">
-                            <img src="images/clean5-pixabay.jpg" class="rounded" alt="...">
-                        </div>
-                        <div class="counter-style1 rounded">
-                            <h4 class="text-primary countup">3</h4>
-                            <h5 class="m-0">Års erfarenhet</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="pl-lg-4">
-                        <h5 class="text-primary h6">Om oss</h5>
-                        <h2 class="display-20 display-md-18 display-lg-16 mb-1-6">Vi har lång erfarenhet inom rengöring
-                        </h2>
-                        <p class="mb-1-6">Elins Städ är ett litet, familjeägt och personligt städföretag i Strängnäs som
-                            drivs på ett
-                            ansvarfullt sätt med omtanke om både kund, personal och miljö. Vi erbjuder professionell
-                            städning till såväl
-                            privatpersoner som företag och fastighetsägare i hela Mälardalen.
-                        </p>
-                        <div class="row mb-1-6">
-                            <div class="col-sm-6">
-                                <ul class="list-style1 mb-0">
-                                    <li>Erfaren personal</li>
-                                    <li>Online Booking</li>
-                                    <li>100% Nöjda kunder</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6">
-                                <ul class="list-style1 mb-0">
-                                    <li>Senaste maskiner </li>
-                                    <li>Certiferad företag</li>
-                                    <li>24/7 Online Support</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <a class="butn" href="#!">Läs mer</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </section>
-    <!--Services section-->
-    <section class="bg-light bg-img cover-background" data-overlay-dark="0">
-        <div class="container cont">
-            <div class="text-center mb-5">
-                <h5 class="text-primary h6">Våra Tjänster</h5>
-                <h2 class="display-20 display-md-18 display-lg-16">Vi erbjuder följande typer av tjänster</h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-lg-3 mb-1-9">
-                    <div class="card card-style1">
-                        <div class="card-img">
-                            <img class="rounded-top" src="images/services-marc-mueller.jpg" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5"><a href="#!">Hemstädning</a></h3>
-                            <p class="display-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-                                nobis non.</p>
-                            <a href="#!" class="read-more">Läs mer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-1-9">
-                    <div class="card card-style1">
-                        <div class="card-img">
-                            <img class="rounded-top" src="images/services-charlotte-may.jpg" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5"><a href="#!">Flyttstädning</a></h3>
-                            <p class="display-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-                                nobis non.</p>
-                            <a href="#!" class="read-more">Läs mer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-1-9">
-                    <div class="card card-style1">
-                        <div class="card-img">
-                            <img class="rounded-top" src="images/services-max-vakhtbovych.jpg" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5"><a href="#!">Storstädning</a></h3>
-                            <p class="display-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-                                nobis non.</p>
-                            <a href="#!" class="read-more">Läs mer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-1-9">
-                    <div class="card card-style1">
-                        <div class="card-img">
-                            <img class="rounded-top" src="images/services-pixabay.jpg" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5"><a href="#!">Byggstädning</a></h3>
-                            <p class="display-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-                                nobis non.</p>
-                            <a href="#!" class="read-more">Läs mer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-1-9">
-                    <div class="card card-style1">
-                        <div class="card-img">
-                            <img class="rounded-top" src="images/services-becosan.jpg" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5"><a href="#!">Kontorsstädning</a></h3>
-                            <p class="display-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-                                nobis non</p>
-                            <a href="#!" class="read-more">Läs mer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-1-9 ">
-                    <div class="card card-style1">
-                        <div class="card-img">
-                            <img class="rounded-top" src="images/services-skitterphoto.jpg" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5"><a href="#!">Trappstädning</a></h3>
-                            <p class="display-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-                                nobis non</p>
-                            <a href="#!" class="read-more">Läs mer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-1-9">
-                    <div class="card card-style1">
-                        <div class="card-img">
-                            <img class="rounded-top" src="images/services-cottonbro.jpg" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5"><a href="#!">Fönsterputs</a></h3>
-                            <p class="display-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-                                nobis non.</p>
-                            <a href="#!" class="read-more">Läs mer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3 mb-1-9 ">
-                    <div class="card card-style1">
-                        <div class="card-img">
-                            <img class="rounded-top" src="images/services-anton-uniqueton.jpg" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5"><a href="#!">Visningsstädning</a></h3>
-                            <p class="display-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-                                nobis non.</p>
-                            <a href="#!" class="read-more">Läs mer</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="Om oss">
+
+        <div class="image" data-aos="fade-right"></div>
+
+        <div class="content" data-aos="fade-left">
+            <h3>Om oss</h3>
+            <p>Elins Städ är ett litet, familjeägt och personligt städföretag i Strängnäs som drivs på ett ansvarfullt sätt med omtanke om både kund, personal och miljö. Vi erbjuder professionell städning till såväl privatpersoner som företag och fastighetsägare
+                i hela Mälardalen.</p>
+            <p>Låt oss på Elins Städ ta hand om städningen och frigöra tid för dig att jobba klart och sedan umgås med familj och vänner istället för att lägga tid på städning. Kom hem till ett välstädat hem och njut av din kvalitetstid.</p>
+            <a href="#kontakt"><button class="btn">Kontakta oss</button></a>
         </div>
+
     </section>
-    <!--End Services section-->
-    <!--Why choose us section-->
-    <section class="secciones bg-light bg-img cover-background" data-overlay-dark="0" data-background="img/bg/bg-06.png"
-        style="background-image: url(&quot;img/bg/bg-06.png&quot;);">
-        <div class="container cont">
-            <div class="row align-items-center">
-                <div class="col-lg-5 mb-5 mb-md-7 mb-lg-0">
-                    <div class="mb-3">
-                        <h5 class="text-primary h6">Varför välja oss?</h5>
-                        <h2 class="display-20 display-md-18 display-lg-16 mb-1-6">Vi gör alla platser snygga och rena.
-                        </h2>
-                    </div>
-                    <p class="mb-2-6">Vi ta bort trycket från städningen så att du kan slappna av.</p>
-                    <div class="media mb-2-6">
-                        <i class="fas fa-chess-king icon-style1 mr-1-6 mrlg--2-6"></i>
-                        <div class="media-body">
-                            <h4 class="h5">Vi är experter</h4>
-                            <p class="display-30 mb-0">Mångsidigt, brett system som på ett tillförlitligt sätt ger
-                                enastående resultat.</p>
-                        </div>
-                    </div>
-                    <div class="media mb-2-6">
-                        <i class="fas fa-check icon-style1 mr-1-6 mrlg--2-6"></i>
-                        <div class="media-body">
-                            <h4 class="h5">Vi är engagerade</h4>
-                            <p class="display-30 mb-0">Vi jobbar efter våra kunders krav.</p>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <i class="fas fa-headset icon-style1 mr-1-6 mrlg--2-6"></i>
-                        <div class="media-body">
-                            <h4 class="h5">24/7 Support</h4>
-                            <p class="display-30 mb-0">Bli nöjd med vårt bästa support som vi ger när som helst.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 text-center">
-                    <div class="pl-lg-8">
-                        <div class="row">
-                            <div class="col-6 mt-5">
-                                <div class="mb-1-9 hoverstyle1">
-                                    <img src="images/choose1-karolina-grabowska.jpg" class="rounded" alt="...">
-                                </div>
-                                <div class="hoverstyle1">
-                                    <img src="images/choose2-gabby-k.jpg" class="rounded" alt="...">
-                                </div>
-                            </div>
-                            <div class="col-6 mover">
-                                <div class="mb-1-9 hoverstyle1">
-                                    <img src="images/choose3-nathan-cowley.jpg" class="rounded" alt="...">
-                                </div>
-                                <div class="hoverstyle1">
-                                    <img src="images/choose4-burst.jpg" class="rounded" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Our team Section -->
-    <section class="team">
-        <div class="container2">
-            <div class="cardis">
-                <div class="content">
-                    <div class="imgBx"><img src="images/team-anastasiya-gepp.jpg" </div>
-                        <div class="contentBX">
-                            <h3>Lorem ipsum.<br><span>Hemstädning</span></h3>
-                        </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i:1">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li style="--i:2">
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li style="--i:3">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="cardis">
-                <div class="content">
-                    <div class="imgBx"><img src="images/team-la-miko.jpg" </div>
-                        <div class="contentBX">
-                            <h3>Lorem ipsum.<br><span>Flyttstädning</span></h3>
-                        </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i:1">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li style="--i:2">
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li style="--i:3">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="cardis">
-                <div class="content">
-                    <div class="imgBx"><img src="images/team-tim-douglas.jpg" </div>
-                        <div class="contentBX">
-                            <h3>Lorem ipsum.<br><span>Byggstädning</span></h3>
-                        </div>
-                </div>
-                <ul class="sci">
-                    <li style="--i:1">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li style="--i:2">
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li style="--i:3">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!--End Our team section-->
-    <!--Footer Section-->
-    <footer class="page-footer bg-dark">
-        <div class="bg-success">
-            <div class="container cont">
-                <div class="row py-4 d-flex align-items-center">
-                    <div class="col-md-12 text-center text-white">
-                        <a href=" https://www.facebook.com" target="_blank"><i
-                                class="fa fa-facebook text-white mr-4"></i></a>
-                        <a href=" https://www.twitter.com" target="_blank"><i
-                                class="fa fa-twitter text-white mr-4"></i></a>
-                        <a href=" https://www.instagram.com" target="_blank"><i
-                                class="fa fa-instagram text-white mr-4"></i></a>
-                        <a href=" https://se.linkedin.com/" target="_blank"><i
-                                class="fa fa-linkedin text-white mr-4"></i></a>
-                        <a href=" https://telegram.org/" target="_blank"><i
-                                class="fa fa-telegram text-white mr-4"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container text-center text-md-left mt-5">
-            <div class="row">
-                <div class="col-md-3 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold text-white text-center">External links</h6>
-                    <hr class="bg-success mb-4 mt-0 d-inlinr-block mx-auto" style="width:125px; height:2px">
-                    <ul class="list-unstyled text-white text-center">
-                        <li class="my-2"><a href="https://www..se/" target="_blank" class="text-reset">Dagens
-                                Juridik</a></li>
-                        <li class="my-2"><a href="https://www.realtid.se/" target="_blank"
-                                class="text-reset">Realtid</a></li>
-                        <li class="my-2"><a href="https://www.expressen.se/" target="_blank"
-                                class="text-reset">Expressen</a></li>
-                    </ul>
+
+    <!-- about section ends -->
+
+    <section class="menu" id="tjänster">
+
+        <h1 class="heading"> Våra <span>Tjänster</span> </h1>
+
+        <ul class="list" data-aos="fade-down">
+            <li class="btn active" data-src="bilder/rodnae-productions.jpg">Hemstädning</li>
+            <li class="btn" data-src="bilder/tima-miroshnichenko3.jpg">Flyttstädning</li>
+            <li class="btn" data-src="bilder\pexels-pixabay.jpg">Storsstädning</li>
+            <li class="btn" data-src="bilder\pexels-pixabay-2.jpg">Byggstädning</li>
+            <li class="btn" data-src="bilder/nathan-cowley.jpg">Kontorsstädning</li>
+            <li class="btn" data-src="bilder\pexels-jonathan-borba.jpg">Trappstädning</li>
+            <li class="btn" data-src="bilder/tima-miroshnichenko2.jpg">Fönsterputs</li>
+            <li class="btn" data-src="bilder\pexels-tim-douglas.jpg">Visningsstädning</li>
+
+            <!--Hemstädning-->
+            <div class="row" data-aos="fade-right">
+
+                <div class="image" data-aos="fade-left">
+                    <img src="bilder/rodnae-productions.jpg" id="menu-img" alt="menu_bilder">
                 </div>
 
-                <div class="col-md-3 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold text-white text-center">Kontakt</h6>
-                    <hr class="bg-success mb-4 mt-0 d-inlinr-block mx-auto" style="width:125px; height:2px">
-                    <ul class="list-unstyled text-white text-center">
-                        <li class="my-2"><i class="fa fa-home mr-3"> Pizzeria gatan 13</i></li>
-                        <li class="my-2"><i class="far fa-city mr-3"> Mariefred</i></li>
-                        <li class="my-2"><i class="fa fa-phone mr-3"> (046) 076 123 456 78</i></li>
-                        <li class="my-2"><i class="fa fa-envelope-square mr-3"> elsas@elsasstad.se</i></li>
-                    </ul>
-                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3> Hemstädning </h3>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora neque itaque numquam nam! Facilis nam inventore, deleniti deserunt dolore eum sapiente voluptatem natus optio laudantium nesciunt sint aliquam! Enim est
+                            voluptatum illum repellendus itaque iste aut pariatur asperiores reiciendis debitis sint voluptates fugit neque, eos, at nam voluptas eligendi?</p>
 
-                <div class="col-md-2 mx-auto mb-4 float-left">
-                    <h6 class="text-uppercase font-weight-bold text-white text-center">Quick links</h6>
-                    <hr class="bg-success mb-4 mt-0 d-inlinr-block mx-auto" style="width:85px; height:2px">
-                    <ul class="list-unstyled text-white text-center">
-                        <li class="my-2"><a href="#home" class="text-reset">HEM</a></li>
-                        <li class="my-2"><a href="#work" class="text-reset">Tjänster</a></li>
-                        <li class="my-2"><a href="#about" class="text-reset">Priser</a></li>
-                        <li class="my-2"><a href="#studies" class="text-reset">Om oss</a></li>
-                        <li class="my-2"><a href="#kontakt" class="text-reset"></a>Kontakt</li>
-                    </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora neque itaque numquam nam! Facilis nam inventore, deleniti deserunt dolore eum sapiente voluptatem natus optio laudantium nesciunt sint aliquam! Enim est
+                            voluptatum illum repellendus itaque iste aut pariatur asperiores reiciendis debitis sint voluptates fugit neque, eos, at nam voluptas eligendi?</p>
+
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora neque itaque numquam nam! Facilis nam inventore, deleniti deserunt dolore eum sapiente voluptatem natus optio laudantium nesciunt sint aliquam! Enim est
+                            voluptatum illum repellendus itaque iste aut pariatur asperiores reiciendis debitis sint voluptates fugit neque, eos, at nam voluptas eligendi?</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora neque itaque numquam nam! Facilis nam inventore, deleniti deserunt dolore eum sapiente voluptatem natus optio laudantium nesciunt sint aliquam! Enim est
+                            voluptatum illum repellendus itaque iste aut pariatur asperiores reiciendis debitis sint voluptates fugit neque, eos, at nam voluptas eligendi?</p>
+                    </div>
                 </div>
             </div>
+    </section>
+
+    <!-- popular section starts  -->
+
+    <section class="popular" id="priser">
+
+        <h1 class="heading"> Vår <span>Prislista</span></h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-right">
+                <img src="bilder/tima-miroshnichenko3.jpg" alt="flyttstäd">
+                <h3>Flyttstäd</h3>
+                <br>
+                <div class="stars">
+                    <ul class="unstyled">
+                        <li>0-39 kvm 1800 kr</li>
+                        <br>
+                        <li>40-49 kvm 2000 kr</li>
+                        <br>
+                        <li>50-59 kvm 2250 kr</li>
+                        <br>
+                        <li>60-69 kvm 2500 kr</li>
+                        <br>
+                        <li>70-79 kvm 2750 kr</li>
+                        <br>
+                        <li>80-89 kvm 3000 kr</li>
+                        <br>
+                        <li>90-99 kvm 3250 kr</li>
+                        <br>
+                        <li>100-120kvm 3500kr </li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="price">Fönsterputsning ingår och vi lämnar självklart kvalitetsgaranti.</div>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+                <img src="bilder\pexels-pixabay.jpg" alt="storstäd">
+                <h3>StorStäd</h3>
+                <br>
+                <div class="stars">
+                    <ul class="unstyled">
+                        <li>0-39 kvm 1500 kr</li>
+                        <br>
+                        <li>40-49 kvm 1750 kr</li>
+                        <br>
+                        <li>50-59 kvm 2000 kr</li>
+                        <br>
+                        <li>60-69 kvm 2250 kr</li>
+                        <br>
+                        <li>70-79 kvm 2500 kr</li>
+                        <br>
+                        <li>80-89 kvm 2750 kr</li>
+                        <br>
+                        <li>90-99 kvm 3000 kr</li>
+                        <br>
+                        <li>100-120kvm 3500kr </li>
+                    </ul>
+                    <br>
+                </div>
+                <br>
+                <div class="price">Alla priser är efter godkänt rutavdrag !</div>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+                <img src="bilder\pexels-tim-douglas.jpg" alt="abonnemang">
+                <h3>Abonnemang</h3>
+                <br>
+                <div class="stars">
+                    <ul class="unstyled">
+                        <li>Hemstäd för dig som vill njuta av ett rent hem</li>
+                        <br>
+                        <li>0–99 m2 (2–4h) <strong>370–740kr</strong></li>
+                        <br>
+                        <li>100–150 m2 (4–6h) <strong>740–1110kr</strong></li>
+                        <br>
+                        <li>151m2 och uppåt. <strong>lämnar offert.</strong></li>
+                        <br>
+                        <br>
+                        <li>Ord. pris: 225 kr/timme. Vi anpassar städningen så att den motsvarar dina önskemål.</li>
+                        <br>
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+                <div class="price">Alla priser är efter godkänt rutavdrag !</div>
+
+            </div>
         </div>
-    </footer>
-    <!--End Section-->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
-        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
-        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
-        crossorigin="anonymous"></script>
-    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+
+    </section>
+    <!-- popular section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="kontakt">
+
+        <h1 class="heading"> Gör en <span>beställning</span> </h1>
+
+        <div class="row">
+
+            <form action="" method="POST" data-aos="fade-right">
+                <input type="text" placeholder="Namn" class="box" required>
+                <input type="email" placeholder="email-adress" class="box" required>
+                <input type="number" placeholder="Telefon" class="box" required>
+                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="Skriv ditt meddelande"></textarea>
+                <input type="submit" value="Beställ" class="btn">
+            </form>
+
+            <div class="image" data-aos="fade-left">
+                <img src="bilder\pexels-proxyclick-visitor-management-system.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <div class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Kontakta oss</h3>
+                <p> <i class="fas fa-map-marker-alt"></i> Svedjevägen 11B <br> <br> 645 44 Strängnäs </p>
+                <p> <i class="fas fa-phone"></i> 010 750 0543 </p>
+                <p> <i class="fas fa-envelope"></i> kontakt@elinsstad.se </p>
+            </div>
+
+            <div class="box">
+                <h3>Öppettider</h3>
+                <p>Måndag - Fredag</p>
+                <p>08:00-16:00</p>
+                <p>Lördag - Söndag</p>
+                <p>Enligt Överenskommelse</p>
+            </div>
+
+            <div class="box">
+                <h3>quick links </h3>
+                <a href="#hem">hem</a>
+                <a href="#Om oss">Om oss</a>
+                <a href="#tjänster">Tjänster</a>
+                <a href="#priser">Priser</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+
+            <div class="box">
+                <h3>följ oss</h3>
+                <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                <a href="https://www.facebook.com/" target="_blank">facebook</a>
+                <a href="https://twitter.com/" target="_blank">twitter</a>
+                <a href="https://www.linkedin.com/">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit">Copyright@2021<a href="#hem"> Elins Städ </a> all rights reserved. </h1>
+
+    </div>
+    <!-- footer section ends -->
+    !-- aos js cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <!-- initializing aos  -->
+
+    <script>
+        AOS.init({
+            delay: 400,
+            duration: 1000
+        })
+    </script>
 </body>
 
 </html>
