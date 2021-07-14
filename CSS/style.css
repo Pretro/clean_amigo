@@ -584,5 +584,10 @@ li {
     .home {
         width: 100%;
         padding: 0 0 0 0;
-    }
+        margin: 45px 0 0 0; 
+     }
+     img{
+        width: 80%;
+        margin: -50px 0 0 0;
+        }
 }
